@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"lib": [
+			"ESNext",
+			"DOM",
+			"DOM.Iterable",
+			"DOM.AsyncIterable"
+		],
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"allowArbitraryExtensions": true,
+		"allowImportingTsExtensions": true,
+		"exactOptionalPropertyTypes": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true
+	},
+	"files": [
+		"index.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

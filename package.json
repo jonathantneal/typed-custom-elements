@@ -1,0 +1,59 @@
+{
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "typed-custom-elements",
+	"description": "TypeScript types for building type-safe Web Components with proper type checking for custom elements.",
+	"version": "0.0.1",
+	"type": "module",
+	"license": "MIT-0",
+	"exports": {
+		".": "./typed-custom-elements.js",
+		"./CustomElement": "./CustomElement.js",
+		"./CustomElementConstructor": "./CustomElementConstructor.js",
+		"./CustomElementRegistry": "./CustomElementRegistry.js"
+	},
+	"files": [
+		"CustomElement.d.ts",
+		"CustomElement.js",
+		"CustomElementConstructor.d.ts",
+		"CustomElementConstructor.js",
+		"CustomElementRegistry.d.ts",
+		"CustomElementRegistry.js",
+		"typed-custom-elements.d.ts",
+		"typed-custom-elements.js"
+	],
+	"sideEffects": false,
+	"keywords": [
+		"component",
+		"components",
+		"construct",
+		"constructable",
+		"constructed",
+		"custom",
+		"custom-element",
+		"custom-elements",
+		"definition",
+		"defintiions",
+		"dom",
+		"element",
+		"elements",
+		"html",
+		"htmlelement",
+		"htmlelements",
+		"javascript",
+		"js",
+		"ts",
+		"type",
+		"types",
+		"typescript",
+		"web",
+		"web-components"
+	],
+	"devDependencies": {
+		"typescript": "5.8.3",
+		"tsd": "0.32.0"
+	},
+	"scripts": {
+		"check": "tsc",
+		"test": "tsd --typings typed-custom-elements.d.ts"
+	}
+}
