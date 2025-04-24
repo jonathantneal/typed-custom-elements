@@ -1,4 +1,4 @@
-import type { CustomElement } from './CustomElement.d.ts'
+import type { CustomElement } from "./CustomElement.d.ts"
 
 /** Constructor interface for custom elements. */
 export interface CustomElementConstructor<T = CustomElement> {
