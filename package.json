@@ -2,9 +2,11 @@
 	"$schema": "https://json.schemastore.org/package.json",
 	"name": "typed-custom-elements",
 	"description": "TypeScript types for building type-safe Web Components with proper type checking for custom elements.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"type": "module",
 	"license": "MIT-0",
+	"repository": "https://github.com/jsxtools/typed-custom-elements",
+	"bugs": "https://github.com/jsxtools/typed-custom-elements/issues",
 	"exports": {
 		".": "./typed-custom-elements.js",
 		"./CustomElement": "./CustomElement.js",
